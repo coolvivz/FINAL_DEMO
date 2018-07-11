@@ -8,7 +8,9 @@ modules:
    path: db
    requires:
     - name: hdi-container
-
+      properties:
+        TARGET_CONTAINER: ~{hdi-container-name}
+    - name: cdsdemo
 resources:
  - name: hdi-container
    parameters:
@@ -17,3 +19,8 @@ resources:
    properties:
       hdi-container-name: ${service-name}
    type: com.sap.xs.hdi-container
+ - name: cdsdemo
+   type: org.cloudfoundry.existing-service
+   parameters:
+      service-name: sales_demo   
+

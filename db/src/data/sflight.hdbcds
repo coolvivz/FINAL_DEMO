@@ -1,0 +1,16 @@
+context sflight {
+    table type sprice {
+        CARRID : String(3);
+        PRICE  : Decimal(15, 2);
+    };
+    
+    Entity stable {
+    
+    CARRID : String(3);
+    PRICE  : Decimal(15, 2);
+    
+    
+    }
+    
+    ;
+};
