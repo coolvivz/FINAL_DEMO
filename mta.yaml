@@ -15,12 +15,12 @@ resources:
  - name: hdi-container
    parameters:
       config:
-         schema: DEMO_NVIDIA
+         schema: DEMO_CPE
    properties:
       hdi-container-name: ${service-name}
    type: com.sap.xs.hdi-container
  - name: cdsdemo
    type: org.cloudfoundry.existing-service
    parameters:
-      service-name: sales_demo   
+      service-name: SFLIGHT   
 

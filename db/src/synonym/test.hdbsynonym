@@ -5,16 +5,10 @@
       "schema": "SFLIGHT"
     }
   },
-  "EMPLOYEE": {
+  "SCARR": {
     "target": {
-      "object": "HXE_EMPLOYEE",
-      "schema": "DMM260"
-    }
-  },
-  "DEPARTMENT": {
-    "target": {
-      "object": "DEPARTMENT",
-      "schema": "DMM260"
+      "object": "SCUSTOM",
+      "schema": "SFLIGHT"
     }
   }
 }
