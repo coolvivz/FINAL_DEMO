@@ -1,0 +1,12 @@
+{
+	"role":{
+		"name": "basic",
+		"object_privileges": [
+		{
+"name":"CV_BOOK",
+"type":"VIEW",
+"privileges":["SELECT"]
+}]
+
+      }
+}
